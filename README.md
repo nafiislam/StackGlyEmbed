@@ -12,7 +12,7 @@
 <img src="https://github.com/nafiislam/StackGlyEmbed/assets/65466905/a3f263c7-da44-4c5b-91d6-eda911fd8346" width=50% height=100%>
 
 ### Data availability
-All training and independent datasets are given in ["Dataset"](Dataset) folder
+All training and independent datasets are given in [Dataset](Dataset) folder
 
 ### Environments
 OS: Ubuntu 22.04.4 LTS
