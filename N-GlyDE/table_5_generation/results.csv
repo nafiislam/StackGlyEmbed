@@ -1,0 +1,22 @@
+Feature set,Sensitivity,Specificity,Balanced Accuracy,Accuracy,Precision,F1-score,MCC,AUC,auPR
+Physico-Global,0.725,0.496,0.611,0.611,0.590,0.651,0.228,0.648,0.628
+ProtT5-XL-U50-Local,0.930,0.712,0.821,0.821,0.764,0.839,0.658,0.894,0.870
+ProtT5-XL-U50-Global,0.908,0.733,0.820,0.820,0.773,0.835,0.651,0.887,0.854
+ESM-2-Local,0.924,0.692,0.808,0.808,0.752,0.829,0.635,0.870,0.834
+ESM-2-Global,0.920,0.746,0.833,0.833,0.785,0.847,0.677,0.896,0.865
+ProteinBert,0.739,0.754,0.747,0.747,0.751,0.744,0.494,0.792,0.773
+"ESM-2-Global, Physico-Global",0.918,0.745,0.832,0.832,0.784,0.845,0.674,0.896,0.865
+"ESM-2-Global, ProtT5-XL-U50-Local",0.931,0.752,0.842,0.842,0.791,0.855,0.695,0.910,0.886
+"ESM-2-Global, ProtT5-XL-U50-Global",0.926,0.734,0.830,0.830,0.777,0.845,0.673,0.899,0.869
+"ESM-2-Global, ESM-2-Local",0.924,0.746,0.835,0.835,0.786,0.849,0.683,0.897,0.867
+"ESM-2-Global, ProteinBert",0.912,0.776,0.844,0.844,0.804,0.854,0.695,0.909,0.883
+"ESM-2-Global, ProtT5-XL-U50-Local, Physico-Global",0.931,0.752,0.842,0.842,0.791,0.855,0.695,0.910,0.886
+"ESM-2-Global, ProtT5-XL-U50-Local, ProtT5-XL-U50-Global",0.933,0.753,0.843,0.843,0.792,0.856,0.698,0.913,0.890
+"ESM-2-Global, ProtT5-XL-U50-Local, ESM-2-Local",0.934,0.741,0.837,0.837,0.784,0.852,0.689,0.904,0.879
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert",0.932,0.779,0.855,0.855,0.810,0.866,0.720,0.927,0.908
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert, Physico-Global",0.932,0.779,0.855,0.855,0.810,0.866,0.720,0.927,0.908
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert, ProtT5-XL-U50-Global",0.930,0.772,0.851,0.851,0.804,0.862,0.711,0.924,0.905
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert, ESM-2-Local",0.934,0.770,0.852,0.852,0.803,0.864,0.714,0.920,0.898
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert, Physico-Global, ProtT5-XL-U50-Global",0.930,0.773,0.851,0.851,0.805,0.863,0.712,0.924,0.904
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert, Physico-Global, ESM-2-Local",0.934,0.769,0.851,0.851,0.803,0.863,0.713,0.919,0.898
+"ESM-2-Global, ProtT5-XL-U50-Local, ProteinBert, Physico-Global, ESM-2-Local, ProtT5-XL-U50-Global",0.931,0.769,0.850,0.850,0.802,0.862,0.710,0.919,0.897
